@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #1C0C39;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    color: #FCF6FF;
+}
+
+nav {
+    background-color: hsl(280, 100%, 98%, 0.6);
+    max-width: 25%;
+    position: fixed;
+    height: 100vh;
+    top: 125px;
+    left: 15px;
+    padding: 3%;
+    border-radius: 20px;
+    font-family: "Space Mono", monospace;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    max-width: 85%;
+    margin-left: 25%;
+    padding: 3%;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color:#FCF6FF;
+}
+
+footer {
+    background-color: #1C0C39;
+    color: #FCF6FF;
+    text-align: center;
+    padding: 15px;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Space Mono", monospace;
+    background-color:#1C0C39;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+#waymoclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#canvasclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#clockclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#findclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#gmailclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#mapsclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#photosclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#safariclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#music {
+    margin-top: 125px;
+    flex-basis: 40%;
+}
+
+#music-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #FF4E88;
+}
+
+#music:hover {
+
+}
+
+#weather {
+    margin: 5px;
+    flex-basis: 40%;
+}
+
+#weather-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #D19CEA;
+
+}
+
+#weather-text:hover {
+ 
+}
+
+#maps {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#maps-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #EACE00;
+
+}
+
+#maps-text:hover {
+ 
+}
+
+#photos {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#photos-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #FF4E88;
+
+}
+
+#photos-text:hover {
+   
+}
+
+#findmy {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#findmy-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #D19CEA;
+
+}
+
+#findmy-text:hover {
+   
+}
+
+#gmail {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#gmail-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #EACE00;
+
+}
+
+#gmail-text:hover {
+  
+}
+
+#canvas {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#canvas-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #FF4E88;
+
+}
+
+#canvas-text:hover {
+  
+}
+
+#clock {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#clock-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #D19CEA;
+
+}
+
+#clock-text:hover {
+ 
+}
+
+#zillow {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#zillow-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #eace00;
+
+}
+
+#zillow-text:hover {
+    
+}
+
+#safari {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#safari-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #FF4E88;
+
+}
+
+#safari-text:hover {
+
+}
+
+#insta {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#insta-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #D19CEA;
+}
+
+#insta-text:hover {
+
+}
+
+#waymo {
+    margin: 5px;
+    
+    flex-basis: 40%;
+}
+
+#waymo-text {
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    flex-basis: 40%;
+    background-color: hsl(280, 100%, 98%, 0.6);
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 3px solid #EACE00;
+}
+
+#waymo-text:hover {
+    
+}
