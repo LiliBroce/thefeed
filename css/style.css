@@ -8,25 +8,34 @@ body {
 }
 
 header {
-    text-align: center;
     margin: auto;
+    text-align: center;
+    margin-top: 15%;
 }
 
-h1 {
-    color: #FCF6FF;
+header:hover {
+    transform: scale(1.015);
+    animation-duration: .5s;
 }
 
 nav {
+    text-align: center;
     background-color: hsl(280, 100%, 98%, 0.6);
+    color: #FCF6FF;
     max-width: 25%;
+    max-height: 70%;
     position: fixed;
     height: 100vh;
     top: 125px;
     left: 15px;
-    padding: 3%;
+    padding: 4%;
     border-radius: 20px;
     font-family: "Space Mono", monospace;
-    font-size: 14px;
+}
+
+#chicken:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
 }
 
 main {
@@ -39,17 +48,24 @@ main {
     max-width: 85%;
     margin-left: 25%;
     padding: 3%;
-    font-size: 20px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color:#FCF6FF;
 }
 
+section img {
+    display: block;
+    margin: auto;
+}
+
+
 footer {
-    background-color: #1C0C39;
+    background-color: #D19CEA;
     color: #FCF6FF;
     text-align: center;
     padding: 15px;
+    font-family: "Space Mono", monospace;
+
 }
 
 #top {
@@ -61,6 +77,18 @@ footer {
     font-size: 20px;
     position: fixed;
     width: 100%;
+}
+
+#top img {
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+
+#logo:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
 }
 
 #waymoclip:hover {
@@ -106,6 +134,9 @@ footer {
 #music {
     margin-top: 125px;
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #D19CEA;
 }
 
 #music-text {
@@ -119,13 +150,13 @@ footer {
     border: 3px solid #FF4E88;
 }
 
-#music:hover {
-
-}
 
 #weather {
     margin: 5px;
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #EACE00;
 }
 
 #weather-text {
@@ -140,14 +171,13 @@ footer {
 
 }
 
-#weather-text:hover {
- 
-}
 
 #maps {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #FF4E88;
 }
 
 #maps-text {
@@ -162,14 +192,13 @@ footer {
 
 }
 
-#maps-text:hover {
- 
-}
 
 #photos {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #D19CEA;
 }
 
 #photos-text {
@@ -184,14 +213,13 @@ footer {
 
 }
 
-#photos-text:hover {
-   
-}
 
 #findmy {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #EACE00;
 }
 
 #findmy-text {
@@ -206,14 +234,13 @@ footer {
 
 }
 
-#findmy-text:hover {
-   
-}
 
 #gmail {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #FF4E88;
 }
 
 #gmail-text {
@@ -228,14 +255,13 @@ footer {
 
 }
 
-#gmail-text:hover {
-  
-}
 
 #canvas {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #D19CEA;
 }
 
 #canvas-text {
@@ -250,14 +276,13 @@ footer {
 
 }
 
-#canvas-text:hover {
-  
-}
 
 #clock {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #EACE00;
 }
 
 #clock-text {
@@ -272,14 +297,13 @@ footer {
 
 }
 
-#clock-text:hover {
- 
-}
 
 #zillow {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #FF4E88;
 }
 
 #zillow-text {
@@ -294,14 +318,13 @@ footer {
 
 }
 
-#zillow-text:hover {
-    
-}
 
 #safari {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #D19CEA;
 }
 
 #safari-text {
@@ -316,14 +339,13 @@ footer {
 
 }
 
-#safari-text:hover {
-
-}
 
 #insta {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #eace00;
 }
 
 #insta-text {
@@ -337,14 +359,14 @@ footer {
     border: 3px solid #D19CEA;
 }
 
-#insta-text:hover {
-
-}
 
 #waymo {
     margin: 5px;
-    
     flex-basis: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #FF4E88;
+    text-align: center;
 }
 
 #waymo-text {
@@ -358,6 +380,3 @@ footer {
     border: 3px solid #EACE00;
 }
 
-#waymo-text:hover {
-    
-}
