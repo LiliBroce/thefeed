@@ -131,6 +131,16 @@ footer {
     animation-duration: .5s;
 }
 
+#weatherclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#instaclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
 #music {
     margin-top: 125px;
     flex-basis: 40%;
