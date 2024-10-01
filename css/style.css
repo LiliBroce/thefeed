@@ -147,6 +147,11 @@ a:hover {
     animation-duration: .5s;
 }
 
+#musicclip:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
 #music {
     margin-top: 125px;
     flex-basis: 40%;
